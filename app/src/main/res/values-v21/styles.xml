@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="android:Theme.Holo">
+        <item name ="android:colorPrimary">@color/ColorPrimary</item>
+        <item name ="android:colorPrimaryDark">@color/ColorPrimaryDark</item>
+        <item name ="android:colorAccent">@color/White</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
+
+
+    </style>
+</resources>

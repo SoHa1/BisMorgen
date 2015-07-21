@@ -1,0 +1,95 @@
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="vertical"
+    tools:context="com.teamvollrausch.sh.bismorgen.AnzeigeActivity">
+
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+
+        <RelativeLayout
+            android:layout_margin="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <TextView
+
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:id="@+id/Cocktail_name"
+                android:textColor="@color/grau"
+                android:textSize="40sp"
+                android:gravity="center"
+
+                />
+
+
+        </RelativeLayout>
+
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:id="@+id/Cocktail_image"
+
+            />
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_button"
+            android:id="@+id/Cocktail_image_button"
+
+            />
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:textAlignment="center"
+            android:scrollbarAlwaysDrawHorizontalTrack="true"
+            android:scrollbarStyle="insideInset"
+            android:id="@+id/text_coktail"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+
+
+            />
+
+
+        <ImageButton
+            android:layout_width="75dp"
+            android:layout_height="65dp"
+
+            android:layout_gravity="center"
+            android:background="@drawable/send_bb"
+            android:id="@+id/send"/>
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/testbluetooth"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Senden"
+            android:id="@+id/textView2"
+            android:textColor="@color/grau"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_gravity="center_horizontal" />
+
+
+    </LinearLayout>
+
+</ScrollView>

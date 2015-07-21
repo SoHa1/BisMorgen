@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"  tools:context=".MainActivity" android:orientation="vertical"
+    android:weightSum="1">
+
+
+
+    <TextView android:text="Cocktails" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewCocktails" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listView"
+        android:layout_weight="1"
+        android:choiceMode="multipleChoice"
+        />
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/create_blue"
+        android:id="@+id/create"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+
+
+
+    <!--  <RelativeLayout
+          android:layout_width="110dp"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center" >
+          <ImageButton
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+
+              android:background="@drawable/btaddgrey"
+              android:id="@+id/create1"
+              android:layout_alignParentTop="true"
+              android:layout_centerHorizontal="true"/>
+      </RelativeLayout>   -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Neuer Cocktail"
+        android:textColor="@color/grau"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+
+
+</LinearLayout>
